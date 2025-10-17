@@ -3,7 +3,7 @@ name: Build and Deploy Hugo
 on:
   push:
     branches:
-      - master
+      - main
     tags:
       - '*'
   workflow_dispatch:
@@ -48,6 +48,12 @@ jobs:
           path: |
             public
             site-${{ github.sha }}.zip
+
+      - name: Upload Pages artifact
+        if: github.ref == 'refs/heads/master'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
 
       - name: Create GitHub Release and upload site archive
         if: startsWith(github.ref, 'refs/tags/')
