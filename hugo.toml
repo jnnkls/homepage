@@ -1,0 +1,119 @@
+baseurl = "https://jnnkls.dev"
+title = "Jani"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+disableKinds = ["taxonomy"]
+enableEmoji = true
+enableRobotsTXT = true
+
+
+[pagination]
+pagerSize = 20
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Jan-Niklas Niebel"
+  info = "Developer, IT-Expert, Tinkerer, Ex-Student, Youtuber and Electrician. Or in short: TotallyCrazy™"
+  description = "Jan-Niklas Niebel's personal website"
+  keywords = "blog,developer,personal,portfolio,tools,devops,fullstack,programming,python,rust,go,javascript,typescript"
+  avatarurl = "https://avatars.githubusercontent.com/u/5995845?v=4"
+  #gravatar = "me@j-n7.dev"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 1998
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  customSCSS = ["scss/_variables.scss"]
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/jnnkls/"
+[[params.social]]
+  name = "Medium"
+  icon = "fa-brands fa-medium fa-2x"
+  weight = 1
+  url = "https://blog.jani.gg"
+[[params.social]]
+  name = "RNDGames"
+  icon = "fa-brands fa-discord fa-2x"
+  weight = 2
+  url = "https://discord.gg/CfhBuzUSJ6"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa-brands fa-instagram fa-2x"
+  weight = 3
+  url = "https://www.instagram.com/janniklasniebel"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa-brands fa-tiktok fa-2x"
+  weight = 3
+  url = "https://www.tiktok.com/@janidotgg"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa-brands fa-twitch fa-2x"
+  weight = 3
+  url = "https://www.twitch.tv/janigoeslive"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa-brands fa-x-twitter fa-2x"
+  weight = 3
+  url = "https://www.twitch.tv/janigoeslive"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "https://blog.jani.gg"
+[[languages.de.menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "https://blog.jani.gg"
+
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
+[[languages.de.menu.main]]
+  name = "Über"
+  weight = 2
+  url = "about/"
+
+[[menu.main]]
+  name = "Privacy Policy"
+  weight = 3
+  url = "privacy-policy/"
+[[languages.de.menu.main]]
+  name = "Datenschutz"
+  weight = 3
+  url = "privacy-policy/"
+
+[[menu.main]]
+  name = "Imprint"
+  weight = 4
+  url = "imprint/"
+[[languages.de.menu.main]]
+  name = "Impressum"
+  weight = 4
+  url = "imprint/"
+
+
+[languages]
+  [languages.de]
+    languageCode = 'de-DE'
+    languageName = '🇩🇪'
+    weight = 1
+  [languages.en]
+    weight = 2
+    languageCode = 'en-US'
+    languageName = '🇬🇧'
