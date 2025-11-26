@@ -6,6 +6,8 @@ defaultcontentlanguage = "en"
 disableKinds = ["taxonomy"]
 enableEmoji = true
 enableRobotsTXT = true
+RelativeURLs=true
+CanonifyURLs=true
 
 
 [pagination]

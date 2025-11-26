@@ -27,6 +27,8 @@ This imprint also applies to the following websites and online presences:
 - [https://j-n7.dev](https://j-n7.dev)
 - [https://jnnkls.dev](https://jnnkls.dev)
 - [https://jnnkls.wtf](https://jnnkls.wtf)
+- [https://iglu.to](https://iglu.to)
+- [https://seal.rocks](https://seal.rocks)
 
 ## Contact
 
