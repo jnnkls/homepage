@@ -14,6 +14,7 @@ This imprint also applies to the following websites and online presences:
 
 - [https://217.games](https://217.games)
 - [https://derjani.me](https://derjani.me)
+- [https://didwecross.app](https://didwecross.app)
 - [https://fallingblocks.dev](https://fallingblocks.dev)
 - [https://fallingblocks.social](https://fallingblocks.social)
 - [https://iglu.to](https://iglu.to)
